@@ -5,8 +5,8 @@ const Navbar = () => {
     return (
         <>
             <nav className='navbar'>
-                <img src={AppLogo } alt="Kreative's Lobby Logo" />
-                <ul></ul>
+                <img className='logo' src={AppLogo } alt="Kreative's Lobby Logo" />
+                <ul className='nav-links'></ul>
             </nav>
         </>
     )
