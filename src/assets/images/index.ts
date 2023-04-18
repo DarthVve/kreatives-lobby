@@ -1,0 +1,1 @@
+export { default as AppLogo } from './kreatives-lobby-logo.jpg';
