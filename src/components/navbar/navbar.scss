@@ -1,0 +1,92 @@
+.navbar {
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    width: 100%;
+    padding: 10px 50px;
+
+
+    .logo {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            margin-right: 40px;
+            list-style-type: none;
+
+            .nav-link {
+                color: #f8982c;
+                text-decoration: none;
+                font-size: 1.2rem;
+                font-weight: 400;
+                transition: all 0.3s ease-in-out;
+                cursor: pointer;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+
+            .nav-link-active {
+                color: #f8982c;
+                text-decoration: none;
+                font-size: 1.2rem;
+                font-weight: 600;
+                border-bottom: 2px solid #f8982c;
+                padding: 0 5px 5px 5px;
+                cursor: pointer;
+            }
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 20px;
+            margin-right: 40px;
+            list-style-type: none;
+            
+            .social-link {
+                color: #f8982c;
+                text-decoration: none;
+                font-size: 1.2rem;
+                font-weight: 600;
+                transition: all 0.3s ease-in-out;
+                cursor: pointer;
+        
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+
+        .nav-btn {
+            background: #f8982c;
+            color: #fff;
+            border: none;
+            outline: none;
+            border-radius: 2px;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 2.5px 5px 15px rgba(208, 170, 124, 0.5);
+            cursor: pointer;
+
+            &:hover {
+                background: #fff;
+                color: #f8982c;
+            }
+        }
+    }
+};
