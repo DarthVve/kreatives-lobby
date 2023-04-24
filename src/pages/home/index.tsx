@@ -1,11 +1,12 @@
 import './home.scss';
+import { HomeVideo } from '../../components';
 
 const Home = () => {
     return (
-        <div>
-            Home
-        </div>
-    );
-}
+        <section className='home'>
+            <HomeVideo />
+        </section>
+    )
+};
 
 export default Home;
