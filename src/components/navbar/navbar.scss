@@ -6,8 +6,7 @@
     justify-content: space-between;
     background: #000;
     width: 100%;
-    padding: 10px 50px;
-    margin-bottom: 100px;
+    padding: 0px 50px;
 
 
     .logo {
@@ -35,7 +34,7 @@
                 cursor: pointer;
 
                 &:hover {
-                    color: #fff;
+                    color: #fffcf0;
                 }
             }
 
@@ -65,14 +64,14 @@
                 cursor: pointer;
         
                 &:hover {
-                    color: #fff;
+                    color: #fffcf0
                 }
             }
         }
 
         .nav-btn {
             background: #f8982c;
-            color: #fff;
+            color: #fffcf0;
             border: none;
             outline: none;
             border-radius: 2px;
@@ -85,7 +84,7 @@
             cursor: pointer;
 
             &:hover {
-                background: #fff;
+                background: #fffcf0;
                 color: #f8982c;
             }
         }

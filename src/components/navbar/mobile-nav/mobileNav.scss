@@ -1,0 +1,104 @@
+.mobile-nav {
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    width: 100%;
+    padding: 0px 15px;
+    
+    .logo-m {
+        width: 80px;
+        height: 80px;
+        background-size: contain;
+    }
+};
+
+.nav-menu {
+    margin-top: 80px;
+    background: #000;
+    padding: 10px 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    z-index: 2;
+    border-bottom-right-radius: 8px;
+    box-shadow: 2.5px 5px 15px rgba(208, 170, 124, 0.5);
+    transition: 2s ease-in-out;
+    position:absolute;
+
+    @media screen and (min-width: 550px) {
+        width: 60%;
+    }
+
+    .nav-links-m {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+        list-style-type: none;
+
+        .nav-link {
+            color: #f8982c;
+            text-decoration: none;
+            font-size: 2.2rem;
+            font-weight: 400;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+
+            @media screen and (max-width: 400px) {
+                font-size: 2rem;
+            }
+        }
+
+        .nav-link-active {
+            color: #f8982c;
+            text-decoration: none;
+            font-size: 2.2rem;
+            font-weight: 600;
+            border-bottom: 2px solid #f8982c;
+            padding: 0 5px 5px 5px;
+            cursor: pointer;
+        }
+    }
+
+    .social-links-m {
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+        margin: 10px 0px;
+
+        .social-link {
+            color: #f8982c;
+            text-decoration: none;
+            font-size: 2.2rem;
+            font-weight: 600;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+        }
+    }
+
+    .nav-btn-m {
+        background: #fffcf0;
+        color: #f8982c;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 20px 40px;
+        font-size: 2.2rem;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 2.5px 5px 15px rgba(208, 170, 124, 0.5);
+        cursor: pointer;
+        margin-bottom: 10px;
+    
+        @media screen and (max-width: 400px) {
+            padding: 20px 40px;
+            font-size: 2rem;
+        }
+}
+};
