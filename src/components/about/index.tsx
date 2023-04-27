@@ -1,7 +1,7 @@
-import './homeText.scss';
+import './about.scss';
 import { kreatives } from '../../assets/images';
 
-const HomeText = () => {
+const About = () => {
     return (
         <div id='about' className='home-text'>
             <div className='hm-image'>
@@ -35,4 +35,4 @@ const HomeText = () => {
     )
 };
 
-export default HomeText;
+export default About;
