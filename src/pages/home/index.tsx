@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <section className='home'>
             <HomeVideo />
-            <HomeText />
+            {/* <HomeText /> */}
         </section>
     )
 };

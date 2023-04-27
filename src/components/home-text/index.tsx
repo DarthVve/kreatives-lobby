@@ -3,7 +3,7 @@ import { kreatives } from '../../assets/images';
 
 const HomeText = () => {
     return (
-        <div className='home-text'>
+        <div id='about' className='home-text'>
             <div className='hm-image'>
                 <img src={kreatives} alt='A picture of Kreatives'/>
             </div>
