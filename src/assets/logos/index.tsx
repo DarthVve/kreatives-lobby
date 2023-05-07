@@ -1,0 +1,13 @@
+export { default as americanCola } from './american-cola.png';
+export { default as haltine } from './haltine.png';
+export { default as highModels } from './high-models.jpg';
+export { default as misties } from './misties.jpg';
+export { default as onye } from './onye.jpg';
+export { default as planet } from './planet.png';
+export { default as redCircle } from './red-circle.png';
+export { default as silverbird } from './silverbird.jpg';
+export { default as silverbirdTv } from './silverbird-news.jpg';
+export { default as sme } from './sme.jpg';
+export { default as sony } from './sony.jpeg';
+export { default as tee9 } from './tee9.png';
+export { default as tornado } from './tornado.jpg';

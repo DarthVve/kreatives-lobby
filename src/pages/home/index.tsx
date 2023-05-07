@@ -1,10 +1,11 @@
 import './home.scss';
-import { HomeVideo } from '../../components';
+import { HomeVideo, Partners } from '../../components';
 
 const Home = () => {
     return (
         <section className='home'>
             <HomeVideo />
+            <Partners />
         </section>
     )
 };
