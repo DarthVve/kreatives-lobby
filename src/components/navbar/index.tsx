@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { BsTwitter, BsInstagram, BsYoutube } from 'react-icons/bs';
 
 import './navbar.scss';
-import { AppLogo } from '../../assets/images';
+import { appLogo } from '../../assets/images';
 import { navLinks, socialLinks } from './navData';
 
 
@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <header>
             <nav className='navbar'>
-                <img className='logo' src={AppLogo } alt="Kreative's Lobby Logo" />
+                <img className='logo' src={appLogo } alt="Kreative's Lobby Logo" />
                 <div className='nav'>
                     <ul className='nav-links'>
                         {navLinks.map((link, index) => { 

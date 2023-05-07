@@ -4,7 +4,7 @@ import { BsTwitter, BsInstagram, BsYoutube } from 'react-icons/bs';
 import { GiHamburgerMenu, GiCancel } from 'react-icons/gi';
 
 import './mobileNav.scss';
-import { AppLogo } from '../../../assets/images';
+import { appLogo } from '../../../assets/images';
 import { navLinks, socialLinks } from '../navData';
 
 const MobileNav = () => {
@@ -22,7 +22,7 @@ const MobileNav = () => {
     return (
     <header>
         <nav className='mobile-nav'>
-            <img className='logo-m' src={AppLogo} alt="Kreative's Lobby Logo" />
+            <img className='logo-m' src={appLogo} alt="Kreative's Lobby Logo" />
             <div onClick={() => setShow(!show)}>
                 {show ? <GiCancel color='#fffcf0' size={35} /> : <GiHamburgerMenu color='#f8982c' size={35} />}
             </div>

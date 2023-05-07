@@ -4,10 +4,11 @@
     flex-direction: row;
     margin-top: 150px;
     margin-bottom: 50px;
-    gap: 100px;
+    gap: 50px;
+    padding: 0 100px;
 
     @media screen and (max-width: 920px) {
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 50px;
         align-items: center;
     }
@@ -19,27 +20,36 @@
     .hv-text {
         display: flex;
         flex-direction: column;
-        text-align: justify;
+        text-align: center;
+        
 
         .hv-text1 {
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             font-weight: 500;
             color: #000;
             margin-bottom: 15px;
         }
 
         .hv-text2 {
-            font-size: 2.5rem;
+            font-size: 4rem;
             font-weight: 600;
             color: #f8982c;
             margin-bottom: 20px;
+
+            @media screen and (max-width: 300px) {
+                font-size: 3rem;
+            }
         }
 
         .hv-text3 {
             font-size: 1.5rem;
-            font-weight: 400;
+            font-weight: 700;
             color: #000;
             margin-bottom: 20px;
+
+            @media screen and (max-width: 300px) {
+                font-size: 1.2rem;
+            }
         }
     }
 
@@ -49,11 +59,7 @@
         margin: 0;
         padding: 0;
         border-radius: 5px;
-        border: 2px solid #f8982c;
-
-        @media screen and (max-width: 1280px) {
-            width: 650px;
-        }
+        width: 650px;
 
         @media screen and (max-width: 1024px) and (min-width: 920px) {
             width: 500px;
