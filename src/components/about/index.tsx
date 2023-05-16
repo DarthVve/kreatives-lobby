@@ -25,6 +25,8 @@ const About = () => {
                     experiences? A place to learn and “perfect” your craft?
                     At the Kreatives’ Society, we are looking forward to welcoming you.
                     You can access shows and events in the kreative space as an active member.
+                </p>
+                <p className='text3'>
                     Collaborations aimed at impact. Are you an organization or brand looking
                     for exposure or trying to work with kreatives? We have a vast portfolio of
                     projects you can collaborate with us on, or we could design and execute
