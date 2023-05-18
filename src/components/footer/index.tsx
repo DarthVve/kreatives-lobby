@@ -8,7 +8,7 @@ const Footer = () => {
     const year = new Date().getFullYear();
 
     return (
-        <footer className='footer'>
+        <footer id='contact' className='footer'>
             <ul className='footer-links'>
                 <li key={socialLinks[0].title}>
                     <NavLink className='footer-link' to={socialLinks[0].path} target="_blank" rel="noopener noreferrer"><BsInstagram/></NavLink>

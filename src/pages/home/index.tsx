@@ -1,5 +1,5 @@
 import './home.scss';
-import { HomeVideo, Partners, About } from '../../components';
+import { HomeVideo, Partners, About, WhatWeDo } from '../../components';
 
 const Home = () => {
     return (
@@ -7,6 +7,7 @@ const Home = () => {
             <HomeVideo />
             <Partners />
             <About />
+            <WhatWeDo />
         </section>
     )
 };

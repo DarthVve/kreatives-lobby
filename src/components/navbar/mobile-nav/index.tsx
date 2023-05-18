@@ -20,7 +20,7 @@ const MobileNav = () => {
 
 
     return (
-    <header>
+    <header id='home'>
         <nav className='mobile-nav'>
             <img className='logo-m' src={appLogo} alt="Kreative's Lobby Logo" />
             <div onClick={() => setShow(!show)}>

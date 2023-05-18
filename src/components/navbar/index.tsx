@@ -11,7 +11,7 @@ const Navbar = () => {
     const [activeTab, setActiveTab] = useState(0);
 
     return (
-        <header>
+        <header id='home'>
             <nav className='navbar'>
                 <img className='logo' src={appLogo } alt="Kreative's Lobby Logo" />
                 <div className='nav'>
