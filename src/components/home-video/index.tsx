@@ -16,7 +16,7 @@ const HomeVideo = () => {
                 </q>  
                 <p className='hv-text3'>Telling stories and building communities.</p>
             </div>
-            <div>
+            <div className='home-video'>
                 <video className='video' controls autoPlay loop muted>
                     <source src={introVideo} type='video/mp4' />
                     Video not supported by your browser.

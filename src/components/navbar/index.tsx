@@ -19,7 +19,7 @@ const Navbar = () => {
                         {navLinks.map((link, index) => { 
                             return (
                                 <li key={index}>
-                                    <NavLink className={activeTab === index ? 'nav-link-active' : 'nav-link'} to={link.path} onClick={() => setActiveTab(index)}>{link.title}</NavLink>
+                                    <a className={activeTab === index ? 'nav-link-active' : 'nav-link'} href={link.path} onClick={() => setActiveTab(index)}>{link.title}</a>
                                 </li>
                             )
                         })}

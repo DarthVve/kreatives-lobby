@@ -3,17 +3,25 @@
     display: flex;
     align-items: center;
     gap: 65px;
+    background: #000;
+    width: 100%;
+    padding: 60px;
 
     @media screen and (max-width: 1280px) {
         flex-direction: column;
-        gap: 50px;
+        gap: 30px;
         align-items: center;
+    }
+
+    @media screen and (max-width: 420px) {
+        padding: 30px;
+        gap: 10px;
     }
 
     .hm-image {
         img {
-            width: 800px;
-            height: 400px;
+            width: 750px;
+            height: 800px;
             object-fit: cover;
             border-radius: 8px;
         }
@@ -24,6 +32,29 @@
                 height: 400px;
             }
         }
+
+        @media screen and (max-width: 540px) {
+            img {
+                width: 450px;
+                height: 300px;
+            }
+        }
+
+        @media screen and (max-width: 420px) {
+            img {
+                margin-top: 10px;
+                width: 350px;
+                height: 250px;
+            }
+        }
+
+        @media screen and (max-width: 300px) {
+            img {
+                margin-top: 10px;
+                width: 250px;
+                height: 250px;
+            }
+        }
     }
 
     .hm-text {
@@ -32,8 +63,8 @@
         gap: 20px;
         text-align: justify;
 
-        @media screen and (max-width: 1280px) {
-            padding: 40px;
+        @media screen and (max-width: 420px) {
+            text-align: center;
         }
 
         .text1 {
@@ -42,11 +73,15 @@
             color: #f8982c;
         }
 
-        .text2 {
+        .text2, .text3 {
             font-size: 1.5rem;
             font-weight: 300;
-            color: #000;
+            color: #fffcf0;
             letter-spacing: 0.3px;
+        }
+
+        .text3 {
+            font-size: 1.3rem;
         }
     }
 };

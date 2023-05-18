@@ -8,7 +8,6 @@
     width: 100%;
     padding: 10px;
     border-bottom: 7px solid #f8992cba;
-    // margin-top: 200px;
 
     .footer-links {
         display: flex;
@@ -31,5 +30,9 @@
         color: #f8982c;
         font-size: 15px;
         font-weight: 400;
+
+        @media screen and (max-width: 300px) {
+            font-size: 12px;
+        }
     }
 };

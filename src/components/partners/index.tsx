@@ -6,7 +6,6 @@ import { americanCola, haltine, highModels, misties, onye, planet, redCircle, si
 
 const LOGOS = [americanCola, haltine, highModels, misties, onye, planet, redCircle, silverbird, silverbirdTv, sme, sony, tee9, tornado];
 const LOOP = new Array(2).fill(1);
-console.log(LOOP);
 
 const Partners = () => {
     return (
