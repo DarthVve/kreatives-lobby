@@ -15,7 +15,7 @@ const WhatWeDo = () => {
                         </article>
                     )
                 })}
-        </div>
+            </div>
         </div>
     )
 };
