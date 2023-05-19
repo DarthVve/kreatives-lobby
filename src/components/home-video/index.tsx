@@ -3,7 +3,7 @@ import { introVideo } from '../../assets/videos';
 
 const HomeVideo = () => {
     return (
-        <div className='home-vid'>
+        <div  className='home-vid'>
             <div className='hv-text'>
                 <p className='hv-text1'>Welcome to</p>
                 <p className='hv-text2'>Kreatives Lobby</p>

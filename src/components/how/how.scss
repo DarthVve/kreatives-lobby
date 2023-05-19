@@ -1,0 +1,76 @@
+.how-we {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 100px;
+    background: #000;
+
+    @media screen and (max-width: 900px) {
+        padding: 50px;
+    }
+
+    @media screen and (max-width: 420px) {
+        padding: 30px;
+    }
+
+    .how-we-title {
+        font-size: 3rem;
+        font-weight: 500;
+        color: #f8982c;
+        text-align: center;
+    }
+
+    .how-we-text {
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: #fffcf0;
+        text-align: center;
+        max-width: 1000px;
+        width: 100%;
+        text-align: center;
+
+        @media screen and (max-width: 420px) {
+            text-align: justify;
+        }
+    }
+
+    .how-we-container {
+        .how {
+            width: 100%;
+            border-bottom: 1px solid #f8982c;
+            margin-bottom: 20px;
+
+            .how-header{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+
+                .how-title{
+                    font-weight: 500;
+                    color: #f8982c;
+                    letter-spacing: 0.8px;
+                }
+
+                .how-btn{
+                    border: none;
+                    background: none;
+                    color: #fffcf0;
+                    font-weight: 800;
+                    cursor: pointer;
+                }
+            }
+
+            .how-body{
+                padding: 20px;
+
+                .how-text{
+                    color: #fffcf0;
+                    
+                    @media screen and (max-width: 420px) {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+};
