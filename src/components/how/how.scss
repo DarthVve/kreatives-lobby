@@ -18,6 +18,7 @@
         font-weight: 500;
         color: #f8982c;
         text-align: center;
+        align-self: center;
     }
 
     .how-we-text {
@@ -28,6 +29,7 @@
         max-width: 1000px;
         width: 100%;
         text-align: center;
+        align-self: center;
 
         @media screen and (max-width: 420px) {
             text-align: justify;
