@@ -7,13 +7,9 @@
     padding: 80px 0;
 
     .what-title {
-        font-size: 6rem;
+        font-size: 4rem;
         font-weight: 600;
         color: #f8982c;
-
-        @media screen and (max-width: 600px) {
-            font-size: 4.5rem;
-        }
 
         @media screen and (max-width: 420px) {
             font-size: 3.3rem;

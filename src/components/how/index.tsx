@@ -31,7 +31,7 @@ const HowWeMakeIt = () => {
                     return (
                         <article className='how' key={index}>
                             <header className='how-header'>
-                                <h2 className='how-title'>{item.title}</h2>
+                                <h2 className='how-title' onClick={toggleInfo(index)}>{item.title}</h2>
                                 <button className='how-btn' onClick={toggleInfo(index)}>
                                     {showInfo && activeTab == index ? <AiOutlineUp size={20} /> : <AiOutlineDown size={20} />}
                                 </button>
