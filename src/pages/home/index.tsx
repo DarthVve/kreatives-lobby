@@ -1,14 +1,26 @@
+import React, { Suspense } from 'react';
+
 import './home.scss';
-import { HomeVideo, Partners, About, WhatWeDo, HowWeMakeIt } from '../../components';
+import { Loader } from '../../components';
+
+const HomeVideo = React.lazy(() => import('../../components/homeVideo'));
+const Partners = React.lazy(() => import('../../components/partners'));
+const About = React.lazy(() => import('../../components/about'));
+const WhatWeDo = React.lazy(() => import('../../components/what'));
+const HowWeMakeIt = React.lazy(() => import('../../components/how'));
+const ContactAd = React.lazy(() => import('../../components/contactAd'));
 
 const Home = () => {
     return (
         <section className='home'>
-            <HomeVideo/>
-            <Partners/>
-            <About/>
-            <WhatWeDo/>
-            <HowWeMakeIt/>
+            <Suspense fallback={<Loader />}>
+                <HomeVideo/>
+                <Partners/>
+                <About/>
+                <WhatWeDo/>
+                <HowWeMakeIt />
+                <ContactAd/>
+            </Suspense>
         </section>
     )
 };

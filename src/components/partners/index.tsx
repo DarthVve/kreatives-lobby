@@ -15,7 +15,7 @@ const Partners = () => {
                 {LOOP.map((_, index) => ( 
                     <div className='logo-carousel' key={index}>
                         {LOGOS.map((logo, index) => (
-                            <img key={index} src={logo} alt='partner logo' loading='lazy' />
+                            <img key={index} src={logo} alt='Creative Partners' loading='lazy' />
                         ))}
                     </div>
                 ))}

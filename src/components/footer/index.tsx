@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
-import { BsInstagram, BsYoutube, BsTwitter } from 'react-icons/bs';
+import { BsInstagram, BsYoutube, BsTwitter, BsFillTelephoneOutboundFill, } from 'react-icons/bs';
+import { MdEmail } from 'react-icons/md';
 
 import './footer.scss';
 import { socialLinks } from '../navbar/navData';
@@ -8,8 +9,14 @@ const Footer = () => {
     const year = new Date().getFullYear();
 
     return (
-        <footer id='contact' className='footer'>
+        <footer className='footer'>
             <ul className='footer-links'>
+                <li>
+                    <a className='footer-link' href="tel: +234 708 344 4777"><BsFillTelephoneOutboundFill/></a>
+                </li>
+                <li>
+                    <a className='footer-link' href="mailto: contact@kreativeslobby.com"><MdEmail/></a>
+                </li>
                 <li key={socialLinks[0].title}>
                     <NavLink className='footer-link' to={socialLinks[0].path} target="_blank" rel="noopener noreferrer"><BsInstagram/></NavLink>
                 </li>

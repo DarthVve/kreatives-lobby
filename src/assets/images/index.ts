@@ -6,3 +6,4 @@ export { default as mobile } from './mobile.png';
 export { default as people } from './people.png';
 export { default as person } from './person.png';
 export { default as receptionist } from './receptionist.png';
+export { default as contact } from './contactAd.png';

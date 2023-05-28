@@ -18,6 +18,7 @@
         font-weight: 500;
         color: #f8982c;
         text-align: center;
+        align-self: center;
     }
 
     .how-we-text {
@@ -28,6 +29,7 @@
         max-width: 1000px;
         width: 100%;
         text-align: center;
+        align-self: center;
 
         @media screen and (max-width: 420px) {
             text-align: justify;
@@ -40,18 +42,19 @@
             border-bottom: 1px solid #f8982c;
             margin-bottom: 20px;
 
-            .how-header{
+            .how-header {
                 display: flex;
                 justify-content: space-between;
                 margin-bottom: 10px;
 
-                .how-title{
+                .how-title {
                     font-weight: 500;
                     color: #f8982c;
                     letter-spacing: 0.8px;
+                    cursor: pointer;
                 }
 
-                .how-btn{
+                .how-btn {
                     border: none;
                     background: none;
                     color: #fffcf0;

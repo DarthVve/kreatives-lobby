@@ -9,7 +9,7 @@ const WhatWeDo = () => {
                 {whatData.map((item, index) => {
                     return (
                         <article className="what-we-do" key={index}>
-                            <img src={item.image} alt='What we do' loading='lazy'/>
+                            <img src={item.image} alt='Creative Services' loading='lazy'/>
                             <h2>{item.title}</h2>
                             <p>{item.text}</p>
                         </article>
