@@ -17,7 +17,7 @@ const HomeVideo = () => {
                 <p className='hv-text3'>Telling stories and building communities.</p>
             </div>
             <div className='home-video'>
-                <video className='video' controls autoPlay loop>
+                <video className='video' autoPlay controls loop>
                     <source src={introVideo} type='video/mp4' />
                     Video not supported by your browser.
                 </video>

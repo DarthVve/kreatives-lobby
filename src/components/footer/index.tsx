@@ -27,7 +27,7 @@ const Footer = () => {
                     <NavLink className='footer-link' to={socialLinks[2].path} target="_blank" rel="noopener noreferrer"><BsTwitter/></NavLink>
                 </li>
             </ul>
-            <p className='footer-text'>Kreative's Lobby &copy; {year} | All rights reserved.</p>
+            <p className='footer-text'>Kreatives Lobby &copy; {year} | All rights reserved.</p>
         </footer>
     )
 };
