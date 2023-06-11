@@ -20,11 +20,10 @@ const HowWeMakeIt = () => {
         <div className='how-we'>
             <h1 className='how-we-title'>HOW WE MAKE IT HAPPEN</h1>
             <p className='how-we-text'>
-                We begin by understanding the needs of your organization
-                or project and then the needs of the people you want to reach.
-                From there, we work together to imagine all future possibilities.
-                Build and Test ideas. And accelerate the right solutions all the
-                way into people’s lives.
+                We begin by identifying and understanding a particular societal issue, understanding the needs
+                & connection between various stakeholders and the people we want to reach. From there, we work
+                together to imagine all future possibilities. Build and Test ideas. And accelerate the right
+                solutions all the way into people’s lives.
             </p>
             <div className='how-we-container'>
                 {howData.map((item, index) => { 
