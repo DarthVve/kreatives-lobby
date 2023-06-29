@@ -9,3 +9,4 @@ export { default as WhatWeDo } from './what';
 export { default as HowWeMakeIt } from './how';
 export { default as ContactAd } from './contactAd';
 export { default as Loader } from './loader';
+export { default as Team } from './team';

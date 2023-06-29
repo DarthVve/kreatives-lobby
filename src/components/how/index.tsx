@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
-import {MdOutlineBrush} from 'react-icons/md';
+import { MdOutlineBrush } from 'react-icons/md';
+import {TfiPalette} from 'react-icons/tfi'
 
 import './how.scss';
 import { howData } from './howData';
@@ -39,7 +40,7 @@ const HowWeMakeIt = () => {
                                 {item.content.map((step, index) => { 
                                     return (
                                         <>
-                                            <p className='how-text' key={index}><MdOutlineBrush/> {step}</p>
+                                            <p className='how-text' key={index}><MdOutlineBrush/><TfiPalette/> {step}</p>
                                             <br/>
                                         </>
                                     )

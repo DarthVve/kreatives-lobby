@@ -9,19 +9,18 @@ const About = () => {
             </div>
             <div className='hm-text'>
                 <p className='text1'>
-                    The Kreatives Lobby Initiative is a not-for-profit organisation
-                    driving change through art. Art can drive social change by
-                    raising awareness of important issues, promoting social justice,
-                    advocating for policy change, building community, and encouraging
-                    creativity and innovation.
+                    Kreatives Lobby is an idea that was birthed from the Kreatives
+                    for Social Change and Development Initiative, a not-for-profit organisation
+                    driving change through art. We believe art can drive social change by raising
+                    awareness of important issues, promoting social justice, advocating for policy
+                    change, building community, and encouraging creativity and innovation.
                 </p>
                 <p className='text2'>
-                    We can create a more just and equitable world by using art to
-                    address critical issues. We are truly about the art, the art
-                    form and supporting the people who create it, from film to
-                    music, poetry, comedy, fashion, dance, etc. The list is endless.
-                    We are building a community of creatives and art
-                    enthusiasts—collaborations aimed at impact.
+                    We can create a more just and equitable world by using art to address critical
+                    issues. We are truly about the art, the art form and supporting the people who
+                    create it, from film to music, poetry, comedy, fashion, dance, etc. The list is
+                    endless. We are building a community of creatives and art enthusiasts—collaborations
+                    aimed at impact.
                 </p>
                 <p className='text3'>
                     Are you a creative organisation or brand looking to improve society
