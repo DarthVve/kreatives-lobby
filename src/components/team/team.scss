@@ -31,7 +31,7 @@
         justify-items: center;
         padding: 0px 50px;
 
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: 1040px) {
             grid-template-columns: repeat(2, 1fr);
             gap: 50px;
         }
@@ -68,6 +68,10 @@
             padding: 15px;
             cursor: pointer;
 
+            @media screen and (max-width: 540px) {
+                max-width: 300px;
+            }
+
             &:hover, &:active {
                 color: #fffcf0;
                 border: 2px solid #f8982c;
@@ -85,6 +89,10 @@
                 color: #f8982c;
                 font-weight: 600;
                 font-size: 1.2rem;
+
+                @media screen and (max-width: 540px) {
+                    font-size: 1rem;
+                }
             }
         }
     }
