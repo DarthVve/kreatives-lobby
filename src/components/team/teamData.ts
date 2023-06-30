@@ -22,7 +22,7 @@ export const teamData = [
     {
         image: tolu,
         name: 'Tolu',
-        role: 'Communications',
+        role: 'Media & Communications',
         description: ' An experienced professional in digital marketing and branding, that possess a strong understanding of mass communication, CSCU, CRM, advanced Excel, digital marketing, graphics design, project management, and branding. “I am  known for my ability to effectively solve problems.”'
     },
 ];

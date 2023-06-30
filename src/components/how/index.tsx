@@ -40,7 +40,7 @@ const HowWeMakeIt = () => {
                                 {item.content.map((step, index) => { 
                                     return (
                                         <>
-                                            <p className='how-text' key={index}><MdOutlineBrush/><TfiPalette/> {step}</p>
+                                            <p className='how-text' key={index}> <TfiPalette/> {step} <MdOutlineBrush/> </p>
                                             <br/>
                                         </>
                                     )
