@@ -1,0 +1,91 @@
+.teams {
+
+    .team-title {
+        font-size: 3rem;
+        font-weight: 500;
+        color: #f8982c;
+        text-align: center;
+        margin-bottom: 30px;
+
+        @media screen and (max-width: 420px) {
+            font-size: 3.3rem;
+        }
+
+        @media screen and (max-width: 300px) {
+            font-size: 2.5rem;
+        }
+    }
+
+    .active {
+        border-top: 1px solid #f8982c;
+        border-right: 1px solid #f8982c;
+        border-left: 1px solid #f8982c;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .team {
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        padding: 0px 50px;
+
+        @media screen and (max-width: 1000px) {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 50px;
+        }
+        
+        @media screen and (max-width: 700px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .team-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .team-body {
+                box-sizing: border-box;
+                background: #000;
+                width: 100%;
+                padding: 16px 16px;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+                border-bottom: 1px solid #f8982c;
+                border-right: 1px solid #f8982c;
+                border-left: 1px solid #f8982c;
+
+                text-align: justify;
+            }
+        }
+
+        .team-member {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            width: 100%;
+            padding: 15px;
+            cursor: pointer;
+
+            &:hover, &:active {
+                color: #fffcf0;
+                border: 2px solid #f8982c;
+            }
+
+            img {
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin-bottom: 20px;
+            }
+
+            p {
+                color: #f8982c;
+                font-weight: 600;
+                font-size: 1.2rem;
+            }
+        }
+    }
+};

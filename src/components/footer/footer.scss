@@ -7,6 +7,7 @@
     gap: 5px;
     width: 100%;
     padding: 15px 0 10px 0;
+    background: #000000;
     border-bottom: 7px solid #f8992cba;
 
     .footer-links {
@@ -15,13 +16,13 @@
         list-style-type: none;
         
         .footer-link {
-            color: #000000;
+            color: #f8982c;
             font-size: 30px;
             transition: all 0.3s ease-in-out;
             cursor: pointer;
             
             &:hover {
-                color: #f8982c;
+                color: #fffcf0;
             }
         }
     }

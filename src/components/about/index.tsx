@@ -9,28 +9,24 @@ const About = () => {
             </div>
             <div className='hm-text'>
                 <p className='text1'>
-                    Strong communities are critical because
-                    we become a part of something greater than ourselves.
-                    Participating in a community bonded by attitudes,
-                    values, and goals is essential to enjoying a fulfilling life.
+                    Kreatives Lobby is an idea that was birthed from the Kreatives
+                    for Social Change and Development Initiative, a not-for-profit organisation
+                    driving change through art. We believe art can drive social change by raising
+                    awareness of important issues, promoting social justice, advocating for policy
+                    change, building community, and encouraging creativity and innovation.
                 </p>
                 <p className='text2'>
-                    At Kreatives’ Lobby, we are truly about the art,
-                    and supporting the people who kreate it, either film, music,
-                    poetry, comedy, fashion, and dance. The list is endless.
-                    A community of, well, as the name implies, kreatives.
-                    Do you have an idea, a project you are working on,
-                    need financial support, or are you just looking for a
-                    community of like-minded people to bounce ideas and share
-                    experiences? A place to learn and “perfect” your craft?
-                    At the Kreatives’ Society, we are looking forward to welcoming you.
-                    You can access shows and events in the kreative space as an active member.
+                    We can create a more just and equitable world by using art to address critical
+                    issues. We are truly about the art, the art form and supporting the people who
+                    create it, from film to music, poetry, comedy, fashion, dance, etc. The list is
+                    endless. We are building a community of creatives and art enthusiasts—collaborations
+                    aimed at impact.
                 </p>
                 <p className='text3'>
-                    Collaborations aimed at impact. Are you an organization or brand looking
-                    for exposure or trying to work with kreatives? We have a vast portfolio of
-                    projects you can collaborate with us on, or we could design and execute
-                    a new project to cater to your specific needs…
+                    Are you a creative organisation or brand looking to improve society
+                    and trying to work with creatives? We have a vast portfolio of
+                    projects you can collaborate with us on, or we could design and
+                    execute a new project to cater to your specific interests…
                 </p>
             </div>
         </div>

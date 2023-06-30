@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 50px;
     padding: 100px;
-    background: #000;
+    // background: #000;
 
     @media screen and (max-width: 900px) {
         padding: 50px;
@@ -22,13 +22,12 @@
     }
 
     .how-we-text {
-        font-size: 1.3rem;
-        font-weight: 400;
+        font-size: 1.5rem;
+        font-weight: 500;
         color: #fffcf0;
         text-align: center;
-        max-width: 1000px;
+        max-width: 1350px;
         width: 100%;
-        text-align: center;
         align-self: center;
 
         @media screen and (max-width: 420px) {
@@ -57,7 +56,7 @@
                 .how-btn {
                     border: none;
                     background: none;
-                    color: #fffcf0;
+                    color: #f8982c;
                     font-weight: 800;
                     cursor: pointer;
                 }
@@ -68,6 +67,7 @@
 
                 .how-text{
                     color: #fffcf0;
+                    font-size: 1.2rem;
                     
                     @media screen and (max-width: 420px) {
                         text-align: center;

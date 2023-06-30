@@ -2,33 +2,28 @@ import { business, mobile, people, person, receptionist, startups } from "../../
 
 export const whatData = [
     {
-        image: receptionist,
-        title: "Brand Promotion and Marketing",
-        text: "Helping organisations find or enhance their story and brand identity through unique creative endeavours. Assiting Organisations reach a niche or wider audience."
+        image: person,
+        title: "Using Art to Drive Change",
+        text: "Using art to provide awareness, foster conversations, advocate policy change and proffer solutions on pressing social issues"
     },
     {
-        image: mobile,
-        title: "Events",
-        text: "Creating, Planning, Organising and Hosting specially curated events and shows."
+        image: startups,
+        title: "Empowering Creatives",
+        text: "Giving opportunities  to upcoming and established creatives to explore and hone their craft"
     },
     {
         image: business,
         title: "Research and Analytics",
-        text: "Conducting market research and providing tools such as analytics, data services, and news about the creative space."
+        text: "Employing Data Analytics to conduct market research and understand audience demographics"
     },
     {
         image: people,
-        title: "Community Building",
-        text: "Building a community of creatives. Sharing ideas and opportunities."
+        title: "Memorable Events & Projects",
+        text: "Creating, Planning, Organising, Executing and Hosting the most unique & memorable projects, events and shows."
     },
     {
-        image: startups,
-        title: "Talent Management",
-        text: "Providing the necessary support needed to new or veteran, amateur or professional creatives."
-    },
-    {
-        image: person,
-        title: "Philnatropy",
-        text: "Using art as an avenue to embolden children, enhance their self-esteem, inspire them to be creative, and make positive contributions to society and the world."
+        image: receptionist,
+        title: "Visibility for our Partners",
+        text: "Provide visibility to our partners. Positioning them in the minds of  their target audience."
     }
 ];

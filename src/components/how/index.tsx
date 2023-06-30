@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
-import {MdOutlineBrush} from 'react-icons/md';
+import { MdOutlineBrush } from 'react-icons/md';
+import {TfiPalette} from 'react-icons/tfi'
 
 import './how.scss';
 import { howData } from './howData';
@@ -20,11 +21,10 @@ const HowWeMakeIt = () => {
         <div className='how-we'>
             <h1 className='how-we-title'>HOW WE MAKE IT HAPPEN</h1>
             <p className='how-we-text'>
-                We begin by understanding the needs of your organization
-                or project and then the needs of the people you want to reach.
-                From there, we work together to imagine all future possibilities.
-                Build and Test ideas. And accelerate the right solutions all the
-                way into people’s lives.
+                We begin by identifying and understanding a particular societal issue, understanding the needs
+                & connection between various stakeholders and the people we want to reach. From there, we work
+                together to imagine all future possibilities. Build and Test ideas. And accelerate the right
+                solutions all the way into people’s lives.
             </p>
             <div className='how-we-container'>
                 {howData.map((item, index) => { 
@@ -40,7 +40,7 @@ const HowWeMakeIt = () => {
                                 {item.content.map((step, index) => { 
                                     return (
                                         <>
-                                            <p className='how-text' key={index}><MdOutlineBrush/> {step}</p>
+                                            <p className='how-text' key={index}> <TfiPalette/> {step} <MdOutlineBrush/> </p>
                                             <br/>
                                         </>
                                     )
