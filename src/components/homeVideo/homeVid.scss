@@ -19,10 +19,47 @@
         margin-top: 100px;
     }
 
+    
+
     .hv-text {
         display: flex;
         flex-direction: column;
         text-align: center;
+        width: 100%;
+
+        .hv {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        
+                .hv-vid {
+                    width: 500px;
+                    height: 200px;
+                    margin: 0;
+                    padding: 0;
+                    border-radius: 5px;
+                    width: 650px;
+        
+                    @media screen and (max-width: 1024px) and (min-width: 920px) {
+                        width: 500px;
+                    }
+        
+                    @media screen and (max-width: 540px) {
+                        width: 350px;
+                        height: 200px;
+                    }
+        
+                    @media screen and (max-width: 420px) {
+                        width: 300px;
+                        height: 200px;
+                    }
+        
+                    @media screen and (max-width: 300px) {
+                        width: 250px;
+                        height: 150px;
+                    }
+                }
+            }
 
         .hv-text1 {
             font-size: 4rem;

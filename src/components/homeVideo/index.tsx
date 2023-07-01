@@ -1,11 +1,16 @@
 import './homeVid.scss';
-import { introVideo } from '../../assets/videos';
+import { introVideo, kreatives } from '../../assets/videos';
 
 const HomeVideo = () => {
     return (
-        <div  className='home-vid'>
+        <div className='home-vid'>
             <div className='hv-text'>
-                <p className='hv-text1'>Kreatives Lobby</p>
+                <div className='hv'>
+                    <video className='hv-vid' autoPlay={true} loop>
+                        <source src={kreatives} type='video/mp4' />
+                        Video not supported by your browser.
+                    </video>
+                </div>
                 <p className='hv-text2'>Driving change through art.</p>
                 <div style={{paddingBottom: '1rem'}}>
                     <q className='hv-text2'>
