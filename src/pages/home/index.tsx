@@ -15,11 +15,11 @@ const Home = () => {
         <section className='home'>
             <Suspense fallback={<Loader />}>
                 <HomeVideo/>
-                <Partners/>
                 <About/>
                 <WhatWeDo/>
                 <HowWeMakeIt />
                 <Team/>
+                <Partners/>
                 <ContactAd/>
             </Suspense>
         </section>
