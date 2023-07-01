@@ -30,7 +30,7 @@ const HowWeMakeIt = () => {
                 {howData.map((item, index) => { 
                     return (
                         <article className='how' key={index}>
-                            <header className='how-header'>
+                            <header className='how-header' onClick={toggleInfo(index)}>
                                 <h2 className='how-title' onClick={toggleInfo(index)}>{item.title}</h2>
                                 <button className='how-btn' onClick={toggleInfo(index)}>
                                     {showInfo && activeTab == index ? <AiOutlineUp size={20} /> : <AiOutlineDown size={20} />}
