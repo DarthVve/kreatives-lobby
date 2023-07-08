@@ -6,7 +6,7 @@ const HomeVideo = () => {
         <div className='home-vid'>
             <div className='hv-text'>
                 <div className='hv'>
-                    <video className='hv-vid' autoPlay={true} loop>
+                    <video className='hv-vid' autoPlay loop>
                         <source src={kreatives} type='video/mp4' />
                         Video not supported by your browser.
                     </video>
